@@ -1,6 +1,15 @@
 .container {
-  max-width: 1110px;
+  max-width: $screen-lg;
   width: 100%;
   padding: 0 20px;
   margin: 0 auto;
+
+  @include max($screen-lg) {
+    max-width: $screen-md;
+  }
+
+  @include max($screen-md) {
+    max-width: $screen-sm;
+    padding: 0 10px;
+  }
 }

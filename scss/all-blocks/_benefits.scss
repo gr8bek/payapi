@@ -28,3 +28,50 @@
   font-weight: $font-weight;
   color: $sc-blue;
 }
+
+.wellet::before {
+  content: "";
+  display: block;
+  width: 106px;
+  height: 106px;
+  margin: auto;
+  background-image: url(/images/svg/wallet.svg);
+  background-repeat: no-repeat;
+}
+
+.rising::before {
+  content: "";
+  display: block;
+  width: 106px;
+  height: 106px;
+  margin: auto;
+  background-image: url(/images/svg/rising.svg);
+  background-repeat: no-repeat;
+}
+
+.card::before {
+  content: "";
+  display: block;
+  width: 106px;
+  height: 106px;
+  margin: auto;
+  background-image: url(/images/svg/card.svg);
+  background-repeat: no-repeat;
+}
+
+@include max($screen-lg) {
+  .wellet::before {
+    width: 88px;
+    height: 88px;
+  }
+
+  .rising::before {
+    width: 88px;
+    height: 88px;
+  }
+
+  .card::before {
+    width: 88px;
+    height: 88px;
+  }
+}

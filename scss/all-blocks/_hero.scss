@@ -3,6 +3,11 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 96px;
+
+  @include max($screen-lg) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 
 .hero__text {

@@ -5,11 +5,28 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
+
+  @include max($screen-lg) {
+    padding-top: 0px;
+  }
 }
 
 .uiux__info {
   display: flex;
   justify-content: space-between;
+
+  @include max($screen-lg) {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .uiux__image {
+      img {
+        width: 360px;
+      }
+    }
+  }
 }
 
 .uiux__text {

@@ -30,7 +30,38 @@
   color: $pm-white;
 
   &:hover {
-    cursor: pointer;
     font-weight: 700;
   }
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 560px;
+}
+
+.facebook {
+  margin-right: 25px;
+  color: #fff;
+}
+
+.facebook:hover {
+  color: $pm-pink;
+}
+
+.twitter {
+  margin-right: 25px;
+  color: #fff;
+}
+
+.twitter:hover {
+  color: $pm-pink;
+}
+
+.linkedin {
+  color: #fff;
+}
+
+.linkedin:hover {
+  color: $pm-pink;
 }

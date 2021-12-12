@@ -2,6 +2,12 @@
   display: flex;
   justify-content: space-evenly;
   margin: 120px auto;
+
+  @include max($screen-lg) {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 }
 
 .implement__text {

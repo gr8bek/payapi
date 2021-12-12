@@ -37,6 +37,12 @@ body {
   background-image: url(../images/png/hero.png);
   background-repeat: no-repeat;
   background-position: top right -80px;
+
+  @include max($screen-lg) {
+    background-image: url("../images/svg/ball.svg");
+    background-position: top center;
+    background-size: 100%;
+  }
 }
 
 img {
