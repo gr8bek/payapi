@@ -1,0 +1,58 @@
+.hero__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 96px;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 546px;
+  width: 100%;
+}
+
+.hero-heading {
+  font-family: $font-heading;
+  font-weight: $font-weight;
+  font-size: $h1-large;
+  line-height: $h1-large-line;
+  color: $sc-blue;
+}
+
+.hero__paragraph {
+  font-family: $font-parapgraph;
+  font-size: $text-size;
+  font-weight: $font-weight;
+  line-height: $text-line;
+  color: $sc-light-blue;
+}
+
+.hero__demo {
+  position: relative;
+}
+
+.hero__email-input {
+  .input {
+    width: 445px;
+    padding: 15px 27px;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 5px 4px 0 rgba(72, 71, 71, 0.2);
+  }
+
+  .input:hover {
+    cursor: pointer;
+  }
+}
+
+.submit-button {
+  position: absolute;
+  right: 100px;
+  border: none;
+}
+
+.pay-noti {
+  min-width: 263px;
+}

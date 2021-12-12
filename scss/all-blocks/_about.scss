@@ -1,0 +1,47 @@
+.about {
+  background-color: $sc-dark-blue;
+}
+
+.about .container {
+  display: flex;
+}
+
+.about__info {
+  max-width: 445px;
+  width: 100%;
+  margin-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about__heading {
+  font-family: $font-heading;
+  font-size: $h2-size;
+  font-weight: $font-parapgraph;
+  line-height: $h2-line;
+  color: $pm-white;
+}
+
+.about__paragraph {
+  font-family: $font-parapgraph;
+  font-size: $text-size;
+  line-height: $text-line;
+  color: $pm-white;
+  opacity: 0.7;
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+}
+
+.partners__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

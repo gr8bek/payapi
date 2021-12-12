@@ -1,0 +1,30 @@
+.benefits__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.benefits__item {
+  max-width: 350px;
+  width: 100%;
+}
+
+.benefits__item--heading {
+  text-align: center;
+  font-family: $font-parapgraph;
+  font-size: $h3-small-size;
+  font-weight: 700;
+  line-height: $h3-small-line;
+  color: $sc-blue;
+}
+
+.benefits__item--paragraph {
+  text-align: center;
+  font-family: $font-parapgraph;
+  font-size: $text-size;
+  line-height: $text-line;
+  font-weight: $font-weight;
+  color: $sc-blue;
+}

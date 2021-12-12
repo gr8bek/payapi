@@ -1,0 +1,26 @@
+.implement-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 120px auto;
+}
+
+.implement__text {
+  max-width: 445px;
+  width: 100%;
+}
+
+.implement__heading {
+  font-family: $font-heading;
+  font-size: $h2-size;
+  font-weight: $font-weight;
+  line-height: $h2-line;
+  color: $sc-blue;
+}
+
+.implement__paragraph {
+  font-family: $font-parapgraph;
+  font-size: $text-size;
+  font-weight: $font-weight;
+  line-height: $text-line;
+  color: $sc-blue;
+}

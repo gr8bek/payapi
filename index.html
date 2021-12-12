@@ -4,8 +4,290 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/mainmin.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Payapi</title>
   </head>
-  <body></body>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <a class="header__logo" href="index.html">
+          <img
+            src="./images/svg/payapi-black.svg"
+            alt="payapi-logo"
+            width="135"
+            height="38"
+          />
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="btn btn--primary schudule-demo" href="#"> Schdeule a Demo </a>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__info">
+            <div class="hero__text">
+              <h1 class="hero-heading">
+                Start building with our APIs for absolutely free.
+              </h1>
+              <form
+                class="hero__demo"
+                action="https://echo.htmlacademy.ru/"
+                method="post"
+              >
+                <label class="hero__email-input">
+                  <input
+                    class="input"
+                    type="email"
+                    name="email"
+                    placeholder="Enter email address"
+                    required
+                  />
+                </label>
+                <button class="btn btn--primary submit-button" type="submit">
+                  Schudule a Demo
+                </button>
+              </form>
+              <p class="hero__paragraph">
+                Have any questions? <strong class="bold">Contact Us</strong>
+              </p>
+            </div>
+            <div class="hero__image">
+              <img
+                class="payapi-notif"
+                src="./images/svg/notification.svg"
+                alt="Payapi notification: The payment has been processed. The total amount deducted from your account is US $104.90."
+                width="263"
+                height="500"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT US -->
+      <section class="about">
+        <div class="container">
+          <div class="about__info">
+            <h2 class="about__heading">Who we work with</h2>
+            <p class="about__paragraph">
+              Today, millions of people around the world have successfully
+              connected their accounts to apps they love using our API. We
+              provide developers with the tools they need to create easy and
+              accessible experiences for their users.
+            </p>
+            <a class="btn btn--light about__link" href="#"> About us </a>
+          </div>
+          <div class="partners">
+            <ul class="partners__list">
+              <li class="partners__item">
+                <img
+                  src="./images/svg/tesla.svg"
+                  alt="tesla"
+                  width="129"
+                  height="17"
+                />
+              </li>
+              <li class="partners__item">
+                <img
+                  src="./images/svg/microsoft.svg"
+                  alt="microsoft"
+                  width="145"
+                  height="31"
+                />
+              </li>
+              <li class="partners__item">
+                <img
+                  src="./images/svg/hp.svg"
+                  alt="hp"
+                  width="140"
+                  height="27"
+                />
+              </li>
+              <li class="partners__item">
+                <img
+                  src="./images/svg/oracle.svg"
+                  alt="oracle"
+                  width="131"
+                  height="17"
+                />
+              </li>
+              <li class="partners__item">
+                <img
+                  src="./images/svg/google.svg"
+                  alt="google"
+                  width="96"
+                  height="33"
+                />
+              </li>
+              <li class="partners__item">
+                <img
+                  src="./images/svg/nvidia.svg"
+                  alt="nvidia"
+                  width="137"
+                  height="26"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- IMPLEMENT -->
+      <section class="implement">
+        <div class="container">
+          <div class="implement-info">
+            <div class="implement__image">
+              <img
+                src="./images/svg/inplement.svg"
+                alt="Our API comes with just a few lines of code. You will be up and running in no time. We built our documentation page to integrate payments functionality with ease."
+                width="445"
+                height="284"
+              />
+            </div>
+            <div class="implement__text">
+              <h2 class="implement__heading">Easy to implement</h2>
+              <p class="implement__paragraph">
+                Our API comes with just a few lines of code. You’ll be up and
+                running in no time. We built our documentation page to integrate
+                payments functionality with ease.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Simple UI and UX  -->
+      <section class="uiux">
+        <div class="container">
+          <div class="uiux__info">
+            <div class="uiux__text">
+              <h2 class="uiux__heading">Simple UI & UX</h2>
+              <p class="uiux__paragraph">
+                Our pre-built form is easy to integrate in your app or website’s
+                checkout flow and designed to optimize conversion.
+              </p>
+            </div>
+            <div class="uiux__image">
+              <img
+                src="./images/svg/uiux.svg"
+                alt="payment"
+                width="566"
+                height="500"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BENEFITS -->
+      <section class="benefits">
+        <div class="container">
+          <h2 class="visually-hidden">Benifits</h2>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <h3 class="benefits__item--heading">Personal Finances</h3>
+              <p class="benefits__item--paragraph">
+                Consolidate financial data from multiple sources and categorize
+                transactions up to 2 years of history. Analyze reports to
+                reconcile activities in your account.
+              </p>
+            </li>
+            <li class="benefits__item">
+              <h3 class="benefits__item--heading">Banking & Coverage</h3>
+              <p class="benefits__item--paragraph">
+                With our platform, you can speed up account onboarding and
+                support ongoing payments for checking, savings, credit card, and
+                brokerage accounts.
+              </p>
+            </li>
+            <li class="benefits__item">
+              <h3 class="benefits__item--heading">Consumer Payments</h3>
+              <p class="benefits__item--paragraph">
+                It’s easier to set up secure bank payments with us through a
+                flow designed with the user experience in mind. Customers could
+                instantly authenticate their account.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- START -->
+      <section class="start">
+        <div class="container">
+          <div class="ready-start">
+            <h2 class="start__heading">Ready to start?</h2>
+            <form
+              class="ready__start"
+              action="https://echo.htmlacademy.ru/"
+              method="post"
+            >
+              <label class="start__email-input">
+                <input
+                  class="input"
+                  type="email"
+                  name="email"
+                  placeholder="Enter email address"
+                  required
+                />
+              </label>
+              <button
+                class="btn btn--primary start__submit-button"
+                type="submit"
+              >
+                Schudule a Demo
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <a class="footer__logo" href="index.html">
+          <img
+            src="./images/svg/payapi-white.svg"
+            alt="logo"
+            width="135"
+            height="38"
+          />
+        </a>
+
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">Pricing</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">About</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>

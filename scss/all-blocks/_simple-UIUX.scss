@@ -1,0 +1,37 @@
+.uiux {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url(/images/png/simpleuiux.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.uiux__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uiux__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 445px;
+  width: 100%;
+}
+
+.uiux__heading {
+  font-family: $font-heading;
+  font-size: $h2-size;
+  font-weight: $font-weight;
+  line-height: $h2-line;
+  color: $sc-blue;
+}
+
+.uiux__paragraph {
+  font-family: $font-parapgraph;
+  font-size: $text-size;
+  font-weight: $font-weight;
+  line-height: $text-line;
+  color: $sc-blue;
+}

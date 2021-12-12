@@ -1,0 +1,56 @@
+.btn {
+  display: inline-block;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 24px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: $font-parapgraph;
+  line-height: 1.15;
+  transition: 0.3s ease;
+  text-decoration: none;
+
+  &[type] {
+    cursor: pointer;
+  }
+
+  &[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &--wide {
+    padding: 15px 32px;
+  }
+
+  &--primary {
+    background-color: $pm-pink;
+    color: $pm-white;
+
+    &:hover {
+      background-color: $sc-pink;
+    }
+  }
+
+  &--light {
+    border: 1px solid #fff;
+    color: $pm-white;
+
+    &:hover {
+      background-color: #fff;
+      color: $sc-dark-blue;
+    }
+  }
+
+  &--dark {
+    border: 1px solid $sc-blue;
+    color: $sc-blue;
+
+    &:hover {
+      background-color: $sc-blue;
+      color: #fff;
+    }
+  }
+}

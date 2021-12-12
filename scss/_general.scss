@@ -27,14 +27,20 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: "Arial" sans-serif;
-  font-size: 16px;
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  background: #edf3f8;
+  background-image: url(../images/png/hero.png);
+  background-repeat: no-repeat;
+  background-position: top right -80px;
 }
 
 img {
+  vertical-align: middle;
   max-width: 100%;
   height: auto;
 }
